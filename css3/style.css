@@ -155,7 +155,7 @@ h1 {
     margin-top: 40%;
     padding: 4% 0% 4% 0%;
     text-align: center;
-    background: rgba(296, 293, 293, 0.9);
+    background: rgba(296, 293, 293, 0.7);
     color: rgb(2, 2, 2);
 }
 
@@ -671,8 +671,6 @@ h3 {
     margin-left: 5%;
 }
 
-
-
 .inline {
     margin-left: 30%;
     margin-top: 5%;
@@ -698,6 +696,97 @@ h3 {
     width: 20%;
 }
 
+.container12 .main {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: 1fr;
+}
+
+.main h2{
+    margin: 5% 0 0% 20%;
+    text-align: left;
+}
+
+.teloufon p {
+    color: rgb(204, 204, 204);
+    margin-left: 20%;
+}
+
+.teloufon .cpanch{
+    margin: 5% 0px 0px 20%
+}
+
+.main .g1 {
+    width: 285px;
+    margin: 7% 0px 0px 20%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding: 12px 0px 12px 40px;
+}
+
+.main .g2 {
+    width: 285px;
+    margin: 2% 0px 0px 20%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding: 12px 0px 12px 40px;
+}
+
+.container12 .main .teloufon {
+    background-image: url(../images/sss1.png);
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255);
+}
+
+.container12 .questions{
+    background: #EAEAEA;
+}
+
+.container12 .ock{
+    display: flex;
+    margin: 3% 0% 3% 21%
+}
+
+.questions h2{
+    margin: 8% 0 5% 20%;
+    text-align: left;
+}
+
+.ock i{
+    font-size: 15pt;
+    margin: 2px 50px 0px 0px;
+}
+
+.circle{
+    margin: 0px 10px;
+    width: 1px;
+    height: 1px;
+    background-color: #627481;
+    border-radius: 25px;
+    padding: 11px;
+}
+
+.gin{
+    display: flex;
+    margin: 2% 0% 3% 15%;
+}
+
+.formula_one{
+    margin-top: 20%;
+}
+
+.container13 .pros img{
+    width: 115%;
+    max-width: 115%;
+}
+
+.container13 .clacker{
+    margin: 17% 0% 2% 17%;
+}
+
 @media(max-width: 1500px) {
 
     .container9 .tagline p {
@@ -707,6 +796,7 @@ h3 {
     .container9 .tagline h6 {
         margin-left: 0%;
     }
+    
 }
 
 @media(max-width: 1300px) {
@@ -1036,6 +1126,49 @@ h3 {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+
+    .container12 .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .container12 .main .teloufon {
+        text-align: center;
+    }
+
+    .main h2 {
+        margin: 5% 0 0% 0%;
+        text-align: center;
+    }
+
+    .teloufon p {
+        margin-left: 0;
+    }
+
+    .main .g1 {
+        margin: 7% 0px 0px 0%;
+    }
+    .main .g2 {
+        margin: 2% 0px 0px 0%;
+    }
+    .teloufon .cpanch {
+        margin: 5% 0px 0px 0%;
+    }
+
+    .container13 .pros img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .gin {
+        margin: 5% 0;
+    }
+
+    .container13 .clacker {
+        margin: 5% 0px;
+        text-align: center;
     }
 }
 
