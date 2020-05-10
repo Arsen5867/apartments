@@ -1,0 +1,48 @@
+
+.container14 {
+    width: 100%;
+    .cart219 {
+        width: 100%;
+        position: relative;
+            .few232{
+                display: none;
+            }
+            &:hover .few232 {
+                display: block;
+                background: rgba(230, 230, 230, 0.5);
+                position: absolute;
+                top: 0;
+                height: 450px;
+                left: 18%;
+                padding: 0 2%;
+                .M1,
+                .M2{
+                    color:red;
+                    border-radius: 25px;
+                    padding: 0 3px;
+                    margin: 0 5px 0 0;
+                }
+                .M1{
+                    background: rgb(255, 255, 255);
+                }
+                .M2 {
+                    background: rgba(255, 255, 255, 0.5);
+                }
+                .pups{
+                    margin-top: 15%;
+                }
+                h2 {
+                    margin: 15% 0 10% 0;
+                }
+                p{
+                    margin: 5% 0;
+                }
+            
+
+            }
+    }
+
+    
+}
+
+

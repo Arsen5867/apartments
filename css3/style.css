@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: "Roboto",
-        "Montserrat";
+    font-family: "Roboto";
     font-weight: 500;
     text-decoration: solid;
     list-style-type: none;
@@ -78,6 +77,7 @@ p {
     border-top-color: #ffffff;
     border-top-style: solid;
     border-top-width: 3px;
+    padding-left: 4px;
 }
 
 .menu ul li a,
@@ -787,6 +787,91 @@ h3 {
     margin: 17% 0% 2% 17%;
 }
 
+.container15{
+    background-image: url(../images/fyter.png);
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    padding: 5% 0;
+}
+
+.container15 a{
+    color: rgb(255, 255, 255);
+}
+
+.go_bla8567 {
+    margin-top: -4px;
+    background: #6c7d89;
+    position:relative;
+}
+
+.container15 .ock {
+    display: flex;
+}
+
+.container15 .logo{
+    color: rgb(255, 255, 255);
+    width: 31px;
+}
+
+.container15 .ove {
+    border-top-color: #758590;
+}
+
+.container15 .logo_drawing{
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;
+}
+
+.container15 .ock i {
+    margin: 2px 40px 0px 0px;
+}
+
+.ola_358 i{
+    padding: 1px;
+}
+
+.mabil_921 div{
+    margin-bottom: 25%;
+    text-transform: uppercase;
+}
+
+.mnb_621 div{
+    margin-bottom:5%;
+}
+
+.jsui_3562{
+    margin-top: 10%;
+}
+
+.jsui_3562 a { 
+    background: rgba(255, 0, 0, 0);
+    border: solid;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.bet_324{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.ueuk_05{
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.ueuk_05 a {
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.ueuk_05 i {
+    color: rgba(255, 255, 255, 0.418);
+}
+
 @media(max-width: 1500px) {
 
     .container9 .tagline p {
@@ -988,6 +1073,9 @@ h3 {
         margin-top: 3%;
     }
 
+    .container15 {
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -1170,6 +1258,16 @@ h3 {
         margin: 5% 0px;
         text-align: center;
     }
+
+    .container15 div{
+        width: 80%;
+        justify-content: center;
+        margin: 2% 0;
+    }
+
+    .container15 .ove {
+        margin-top: -16px;
+    }
 }
 
 @media(max-width: 600px) {
@@ -1243,6 +1341,19 @@ h3 {
         Justify-content: center;
     }
 
+}
+
+@media(max-width: 410px) {
+    .container15 {
+        padding: 12% 0;
+    }
+
+    .container15 .ock i {
+        margin: 2px 5% 0px 0;
+    }
+    .jsui_3562{
+        margin: 7% 0;
+    }
 }
 
 @media(max-width: 400px) {
