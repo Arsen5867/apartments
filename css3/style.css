@@ -1357,6 +1357,10 @@ h3 {
         width: 60%;
     }
 
+    .container6 .title h3 {
+        text-align: center;
+    }
+
 }
 
 @media(max-width: 410px) {
@@ -1382,8 +1386,9 @@ h3 {
     .Glo .menu {
         width: 52%;
     }
+
     .menu ul li {
-    padding: 15px 0px 15px 0px;
+        padding: 15px 0px 15px 0px;
     }
 }
 
