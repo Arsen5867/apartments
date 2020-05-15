@@ -365,7 +365,7 @@ h3 {
 
 .container5 .values {
     color: #b4b4b47e;
-    
+
 }
 
 .container5 .xbr {
@@ -385,7 +385,7 @@ h3 {
     margin: 5% 0;
 }
 
-.parameters .jon h6{
+.parameters .jon h6 {
     padding-bottom: 5%;
 }
 
@@ -423,7 +423,7 @@ h3 {
     margin: 9px 0px 0px 112px;
 }
 
-.klk:focus{
+.klk:focus {
     background-color: #6D6253;
     color: rgb(255, 255, 255);
 }
@@ -702,7 +702,7 @@ h3 {
     grid-template-rows: 1fr;
 }
 
-.main h2{
+.main h2 {
     margin: 5% 0 0% 20%;
     text-align: left;
 }
@@ -712,7 +712,7 @@ h3 {
     margin-left: 20%;
 }
 
-.teloufon .cpanch{
+.teloufon .cpanch {
     margin: 5% 0px 0px 20%
 }
 
@@ -741,26 +741,26 @@ h3 {
     color: rgba(255, 255, 255);
 }
 
-.container12 .questions{
+.container12 .questions {
     background: #EAEAEA;
 }
 
-.container12 .ock{
+.container12 .ock {
     display: flex;
     margin: 3% 0% 3% 21%
 }
 
-.questions h2{
+.questions h2 {
     margin: 8% 0 5% 20%;
     text-align: left;
 }
 
-.ock i{
+.ock i {
     font-size: 15pt;
     margin: 2px 50px 0px 0px;
 }
 
-.circle{
+.circle {
     margin: 0px 10px;
     width: 1px;
     height: 1px;
@@ -769,25 +769,25 @@ h3 {
     padding: 11px;
 }
 
-.gin{
+.gin {
     display: flex;
     margin: 2% 0% 3% 15%;
 }
 
-.formula_one{
+.formula_one {
     margin-top: 20%;
 }
 
-.container13 .pros img{
+.container13 .pros img {
     width: 115%;
     max-width: 115%;
 }
 
-.container13 .clacker{
+.container13 .clacker {
     margin: 17% 0% 2% 17%;
 }
 
-.container15{
+.container15 {
     background-image: url(../images/fyter.png);
     display: flex;
     justify-content: space-evenly;
@@ -795,21 +795,21 @@ h3 {
     padding: 5% 0;
 }
 
-.container15 a{
+.container15 a {
     color: rgb(255, 255, 255);
 }
 
 .go_bla8567 {
     margin-top: -4px;
     background: #6c7d89;
-    position:relative;
+    position: relative;
 }
 
 .container15 .ock {
     display: flex;
 }
 
-.container15 .logo{
+.container15 .logo {
     color: rgb(255, 255, 255);
     width: 31px;
 }
@@ -818,7 +818,7 @@ h3 {
     border-top-color: #758590;
 }
 
-.container15 .logo_drawing{
+.container15 .logo_drawing {
     border-right-color: #ffffff;
     border-left-color: #ffffff;
     border-top-color: #ffffff;
@@ -828,39 +828,39 @@ h3 {
     margin: 2px 40px 0px 0px;
 }
 
-.ola_358 i{
+.ola_358 i {
     padding: 1px;
 }
 
-.mabil_921 div{
+.mabil_921 div {
     margin-bottom: 25%;
     text-transform: uppercase;
 }
 
-.mnb_621 div{
-    margin-bottom:5%;
+.mnb_621 div {
+    margin-bottom: 5%;
 }
 
-.jsui_3562{
+.jsui_3562 {
     margin-top: 10%;
 }
 
-.jsui_3562 a { 
+.jsui_3562 a {
     background: rgba(255, 0, 0, 0);
     border: solid;
     border-radius: 25px;
     text-transform: uppercase;
 }
 
-.bet_324{
+.bet_324 {
     text-align: center;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     position: absolute;
     bottom: 10px;
     left: 50%;
 }
 
-.ueuk_05{
+.ueuk_05 {
     color: rgba(255, 255, 255, 0.418);
 }
 
@@ -881,7 +881,7 @@ h3 {
     .container9 .tagline h6 {
         margin-left: 0%;
     }
-    
+
 }
 
 @media(max-width: 1300px) {
@@ -946,6 +946,7 @@ h3 {
         Justify-content: space-between;
         background: #627481;
     }
+
     .ove {
         border-top-color: #627481;
     }
@@ -1210,6 +1211,7 @@ h3 {
     .container5 .button_red_a {
         margin: 3% 0 0 0;
     }
+
     .container7 .professionalism {
         display: grid;
         grid-template-columns: 1fr;
@@ -1238,9 +1240,11 @@ h3 {
     .main .g1 {
         margin: 7% 0px 0px 0%;
     }
+
     .main .g2 {
         margin: 2% 0px 0px 0%;
     }
+
     .teloufon .cpanch {
         margin: 5% 0px 0px 0%;
     }
@@ -1259,7 +1263,7 @@ h3 {
         text-align: center;
     }
 
-    .container15 div{
+    .container15 div {
         width: 80%;
         justify-content: center;
         margin: 2% 0;
@@ -1273,8 +1277,12 @@ h3 {
 @media(max-width: 600px) {
     .menu ul li {
         padding: 10px 10px 15px 10px;
-        width: 79%;
+        width: 100%;
         text-align: center;
+    }
+
+    .Glo .menu {
+        width: 71%;
     }
 
     h1 {
@@ -1327,6 +1335,10 @@ h3 {
         width: 32%;
     }
 
+    .container7 .title {
+        padding: 10% 10% 10% 10%;
+    }
+
 }
 
 @media(max-width: 548px) {
@@ -1341,6 +1353,10 @@ h3 {
         Justify-content: center;
     }
 
+    .Glo .menu {
+        width: 60%;
+    }
+
 }
 
 @media(max-width: 410px) {
@@ -1351,7 +1367,8 @@ h3 {
     .container15 .ock i {
         margin: 2px 5% 0px 0;
     }
-    .jsui_3562{
+
+    .jsui_3562 {
         margin: 7% 0;
     }
 }
@@ -1360,6 +1377,13 @@ h3 {
     .inline {
         margin: 4% 0;
         text-align: center;
+    }
+
+    .Glo .menu {
+        width: 52%;
+    }
+    .menu ul li {
+    padding: 15px 0px 15px 0px;
     }
 }
 
@@ -1372,5 +1396,13 @@ h3 {
 @media(max-width: 350px) {
     .torments .down {
         padding: 5px 10% 5px 3%;
+    }
+
+    .main .g1 {
+        width: 81%;
+    }
+
+    .main .g2 {
+        width: 81%;
     }
 }
