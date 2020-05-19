@@ -900,6 +900,12 @@ h3 {
     }
 }
 
+@media(min-width: 1200px) {
+    .button_red {
+    padding: 10px 30px;
+    }
+}
+
 @media(max-width: 1129px) {
 
     .radio_1 .yoy1 {
@@ -1389,6 +1395,11 @@ h3 {
 
     .menu ul li {
         padding: 15px 0px 15px 0px;
+    }
+
+    .container2 .transfer p{
+
+    font-size: 14px;
     }
 }
 
